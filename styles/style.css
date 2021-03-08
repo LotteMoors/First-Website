@@ -259,17 +259,24 @@ h2 {
   color: white;
   font-weight: lighter;
   border-top: dashed rgba(255, 255, 255, 0.3) 1px;
-  min-height:60vh;
-  
+  min-height:60vh;  
 }
+
 #Videos0 {
   border-top: solid rgba(255, 255, 255, 0.5) 4px;
 }
+#Videos0 .title{
+  margin-top: 5vh;
+  height:10vh; 
+  text-align:center;
+  
+}
+
 #Videos0 .row {    
   padding:15px;
   display: flex;
   justify-content: center;
-  min-height: 25vh;
+  min-height: 65vh;
   height: auto;
   font-size: 55px;
 }
