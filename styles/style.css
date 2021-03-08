@@ -346,10 +346,11 @@ h2 {
 #Links {
   border-top: solid rgba(255, 255, 255, 0.3) 2px;
   padding-bottom: 5vh;
+  height:85vh;
 }
 
 #Links h2 {
-  text-align: center;
+  text-align: center;  
   margin: 15px;
   margin: 0 auto;
 }
