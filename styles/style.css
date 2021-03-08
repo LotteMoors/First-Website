@@ -302,7 +302,7 @@ h2 {
   padding: 20px;
   font-size: 55px;
 }
-.media {
+.media{
   background-image: radial-gradient( circle farthest-corner at 16.5% 28.1%,  rgba(15,27,49,1) 0%, rgba(0,112,218,1) 90% );  
   height: auto;
   display:flex;
@@ -312,6 +312,11 @@ h2 {
   color: rgb(202, 202, 202);
   padding-left: 10px;
 }
+
+.collapse{
+  background: transparent;
+}
+
 .media-body {
   display: flex;
   flex-direction: column;
