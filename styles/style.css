@@ -14,18 +14,17 @@ body {
   position: sticky;
   width: 100%;
   background-color: rgb(0, 0, 0);
-  min-height: 13vh; 
+  min-height: 13vh;
 }
 .navbar-brand {
   margin-left: 20px;
 }
 
-
-.collapse{
+.collapse {
   background-color: rgb(0, 0, 0);
-  width:100%;
-  padding:0px;
-  margin:0px;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
 }
 
 .navbar ul {
@@ -107,9 +106,9 @@ body {
 }
 
 .box h1,
-.box h2{
+.box h2 {
   display: flex;
-  margin : 0 auto;
+  margin: 0 auto;
   justify-content: center;
   opacity: 1;
 }
@@ -190,15 +189,14 @@ body {
   margin: 0px;
 }
 
+
 h2 {
   padding: 35px;
   font-size: 7vh;
   display: flex;
   justify-content: center;
 }
-.card-img-top {
-  height: 300px;
-}
+
 #Cards {
   background-color: black;
   width: 95%;
@@ -210,6 +208,9 @@ h2 {
   margin: 0 auto;
 }
 
+.card-img-top {
+  height: 300px;
+}
 .card {
   margin: 10px;
   height: auto;
@@ -242,15 +243,20 @@ h2 {
   color: black;
 }
 
+.center {
+  margin: 0 auto;
+}
+
 .modal-content {
   color: black;
   width: 100%;
-  max-width: 55vh;
+  max-width: 85vh;
   display: flex;
   flex-wrap: wrap;
+  margin: 0 auto;
 }
 
-#Videos  {
+#Videos {
   display: flex;
   justify-content: center;
   align-content: space-around;
@@ -259,21 +265,20 @@ h2 {
   color: white;
   font-weight: lighter;
   border-top: dashed rgba(255, 255, 255, 0.3) 1px;
-  min-height:60vh;  
+  min-height: 60vh;
 }
 
 #Videos0 {
-  border-top: solid rgba(255, 255, 255, 0.5) 4px;
+  border-top: solid rgba(255, 255, 255, 0.3) 2px;
 }
-#Videos0 .title{
+#Videos0 .title {
   margin-top: 5vh;
-  height:10vh; 
-  text-align:center;
-  
+  height: 10vh;
+  text-align: center;
 }
 
-#Videos0 .row {    
-  padding:15px;
+#Videos0 .row {
+  padding: 15px;
   display: flex;
   justify-content: center;
   min-height: 65vh;
@@ -297,15 +302,19 @@ h2 {
   justify-content: center;
 }
 
-#Movies h2 {  
+#Movies h2 {
   margin: 0 auto;
   padding: 20px;
   font-size: 55px;
 }
-.media{
-  background-image: radial-gradient( circle farthest-corner at 16.5% 28.1%,  rgba(15,27,49,1) 0%, rgba(0,112,218,1) 90% );  
+.media {
+  background-image: radial-gradient(
+    circle farthest-corner at 16.5% 28.1%,
+    rgba(15, 27, 49, 1) 0%,
+    rgba(0, 112, 218, 1) 90%
+  );
   height: auto;
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   width: 80%;
   margin: 15px;
@@ -313,7 +322,7 @@ h2 {
   padding-left: 10px;
 }
 
-.collapse{
+.collapse {
   background: transparent;
 }
 
@@ -321,99 +330,91 @@ h2 {
   display: flex;
   flex-direction: column;
   align-content: center;
-  justify-content: center;  
+  justify-content: center;
   margin: 0 auto;
-  height:35vh;
+  height: 35vh;
 }
 
 .media button {
   color: white;
   background-color: black;
-  width:15vh;
+  width: 15vh;
   margin: 10px auto;
   border-radius: 7px;
 }
 
-#Links{ 
-  border-top: solid rgba(255, 255, 255, 0.3) 2px;  
-  padding-bottom:5vh;
+#Links {
+  border-top: solid rgba(255, 255, 255, 0.3) 2px;
+  padding-bottom: 5vh;
 }
 
-#Links h2{
+#Links h2 {
   text-align: center;
-  margin:15px;
+  margin: 15px;
   margin: 0 auto;
 }
 
-
-#imgB {  
+#imgB {
   display: flex;
   justify-content: space-around;
-  min-height:70vh
-  
+  min-height: 70vh;
 }
 #imgB img {
   border-radius: 5px;
-  max-width:55vh;
-  height:60vh;
+  max-width: 55vh;
+  height: 60vh;
   margin: 10px;
 }
 
 #Links h2 {
-  
   padding: 20px;
   font-size: 55px;
 }
 
-
 #Contact {
   background-color: black;
   border-top: solid rgba(255, 255, 255, 0.3) 2px;
-  min-height: 25vh; 
-  width:100%;  
+  min-height: 25vh;
+  width: 100%;
 }
-#Contact .row{
+#Contact .row {
   align-content: center;
   margin: 0 auto;
-  width:85%;
+  width: 85%;
 }
 #Contact h3 {
- 
   display: flex;
   justify-content: center;
   padding: 5px;
   font-size: 5vh;
-  
 }
 
 #Contact .form {
   display: flex;
-  justify-content: center;  
+  justify-content: center;
   margin: 0px auto;
   border-radius: 4px;
   width: 100%;
-  max-width:35vh;
+  max-width: 35vh;
   padding: 10px;
 }
 #Contact h3 {
   color: white;
 }
 
-
-footer{
-  width:100%;
+footer {
+  width: 100%;
   background-color: lightgray;
 }
 
-footer .container .row{
-  
+footer .container .row {
   text-align: center;
   display: flex;
   flex-direction: column;
-  align-content: center;  
+  align-content: center;
   height: auto;
 }
 
 footer .container .row img {
-  margin:10px;
+  margin: 10px;
 }
