@@ -14,7 +14,7 @@ body {
   position: sticky;
   width: 100%;
   background-color: rgb(0, 0, 0);
-  min-height: 13vh;
+  min-height: 10vh;
 }
 .navbar-brand {
   margin-left: 20px;
